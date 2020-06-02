@@ -32,7 +32,7 @@
 ***************************************************************************************/
 // Include header file that defines the fonts loaded, the TFT drivers
 // available and the pins to be used, etc, etc
-#include <User_Setup_Select.h>
+#include <User_Define.h>
 
 // Handle FLASH based storage e.g. PROGMEM
 #ifdef __AVR__
@@ -141,7 +141,7 @@
   // the sketch if they are used
   #include <Fonts/GFXFF/gfxfont.h>
   // Call up any user custom fonts
-  #include <User_Setups/User_Custom_Fonts.h>
+  #include <Fonts/Custom_Fonts.h>
 #endif // #ifdef LOAD_GFXFF
 
 // Create a null default font in case some fonts not used (to prevent crash)

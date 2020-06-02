@@ -1,0 +1,1 @@
+#define TFT32_LIB_VERSION F("0.2.0")
