@@ -296,10 +296,10 @@
 
 // Load the right driver definition - do not tinker here !
 #if   defined (ILI9341_DRIVER)
-     #include <src/ILI9341_Defines.h>
+     #include <TFT_Drivers/ILI9341_Defines.h>
      #define  TFT_DRIVER 0x9341
 #elif defined (ST7735_DRIVER)
-     #include <src/ST7735_Defines.h>
+     #include <TFT_Drivers/ST7735_Defines.h>
      #define  TFT_DRIVER 0x7735
 #else
      #define  TFT_DRIVER 0x0000
